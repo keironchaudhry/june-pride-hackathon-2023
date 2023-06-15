@@ -8,6 +8,8 @@ There are multiple ways to create a branch in your IDE (Integrated development e
 
 * You should be able to locate "Branch" (it'll normally say "1 branch" if there's just one, or "2 branches" etc.,). Click it.
 
+![branches](./assets/documentation/readme_images/2%20branches.png)
+
 * Then click "New branch". You can name it whatever but I would recommend calling it your name (in my case, I've named it "keiron").
 
 Done.
@@ -16,9 +18,11 @@ Another way:
 
 * Go into your actual IDE, and go to the Source Control panel. This can be found underneath the search tab on the left side of the screen in GitPod (should be the same for Code Anywhere and VSCode).
 
+![source-control](./assets/documentation/readme_images/source_control.png)
+
 * Then click on the three dot dropdown component up top (see attached photo)
 
-three-dot
+![three-dots](./assets/documentation/readme_images/three_dots.png)
 
 * Go to Branch > Create branch > Enter desired branch name
 
@@ -26,7 +30,7 @@ Done. _You will need to "Publish branch" in Source Control_, and then it can be 
 
 Once you've done this, in your IDE, go right down to the branch label (I will attach a photo).
 
-branch-label
+![branch-ide](./assets/documentation/readme_images/branch-ide.png)
 
 Click this and it will bring up a list of existing branches. Click the one you have made.
 
@@ -56,11 +60,11 @@ A list of useful commands when you're working from branches are:
 
 When you've pushed changes to your branch, you can then head over to the GitHub repository for the Pride Hackathon and normally there appears an unmissable message saying that you can merge changes and begin a pull request.
 
-unmissable-message
+![unmissable-message](./assets/documentation/readme_images/unmissable-message.png)
 
 In case you've pushed changes and this message doesn't appear, don't worry, just go back into "branches", find your name, and alongside your branch name, there'll be a button for "New Pull Request". I've attached the following photo for reference.
 
-pull-request-button
+![pr-button](./assets/documentation/readme_images/new%20pr%20button.png)
 
 Once you've begun a PR, it will appear in the "Pull Requests" (next to "Issues") part of the GitHub repository, and you can manage it from there before merging your changes with main.
 
@@ -74,6 +78,8 @@ So when I made 'keiron', I now have the 'keiron' branch open in my IDE (Integrat
 
 This is noteworthy because after every successfully merged Pull Request, you must always `git pull origin main` and then go to Source Control and click `Sync Changes`, to make sure the remote version of your branch is also up to date with your coding environment (IDE). If these branches aren't up to date, we could experience what's called a merge conflict, which I will explain below in the potential problems section.
 
+![sync-changes](./assets/documentation/readme_images/sync_changes.png)
+
 **Potential problems**
 
 When a lot of PRs go up, a "merge conflict" can happen. This is okay and it's bound to happen, it's part of the experience of a hackathon as well (and also working in a team). It can occur for a variety of complex reasons.
@@ -83,6 +89,14 @@ An example of how it can occur is when changes are being made by various branche
 Of course the best way to avoid it is to try and always make sure your branch is up to date and to work on completely different sections. Make sure we make clear our tasks, roles and what it is we are working on within the file we are working in.
 
 If it happens we will just deal with it but let's try avoid it xD
+
+Do check your branches from time to time either at the bottom of your IDE, or in the GitHub repository to see if you are up to date. If you are, it'll appear as "0|0". If you make sure of this, it'll keep everything clean and we can reduce the risk of merge conflicts. One "0" represents your IDE branch and the other your "remote" branch. Keep these two in sync and at "0|0" as often as humanly possible.
+
+![good-branch](./assets/documentation/readme_images/good%20branch.png)
+
+An example of a badly managed branch is this: 
+
+![bad-branch](./assets/documentation/readme_images/bad%20branch.png)
 
 **Note**
 
