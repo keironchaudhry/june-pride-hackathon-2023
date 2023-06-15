@@ -1,4 +1,4 @@
-# **Branches and Pull Requests
+# **Branches and Pull Requests**
 
 ## **Creating a Branch**
 
