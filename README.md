@@ -18,7 +18,7 @@ Another way:
 
 * Then click on the three dot dropdown component up top (see attached photo)
 
-three-dot
+![three-dots](./assets/documentation/readme_images/three_dots.png)
 
 * Go to Branch > Create branch > Enter desired branch name
 
@@ -26,7 +26,7 @@ Done. _You will need to "Publish branch" in Source Control_, and then it can be 
 
 Once you've done this, in your IDE, go right down to the branch label (I will attach a photo).
 
-branch-label
+![branch-ide](./assets/documentation/readme_images/branch-ide.png)
 
 Click this and it will bring up a list of existing branches. Click the one you have made.
 
@@ -73,6 +73,8 @@ When you make a branch, _there always exists two versions of it_, one in your ID
 So when I made 'keiron', I now have the 'keiron' branch open in my IDE (Integrated development environment, which is a fancy way of saying "coding environment", i.e., VSCode, Gitpod, CodeAnywhere etc.), where I am modifying the code. And then I push these changes to the 'keiron' branch in GitHub (_the remote branch_), where I can then merge that branch with the main remote branch.
 
 This is noteworthy because after every successfully merged Pull Request, you must always `git pull origin main` and then go to Source Control and click `Sync Changes`, to make sure the remote version of your branch is also up to date with your coding environment (IDE). If these branches aren't up to date, we could experience what's called a merge conflict, which I will explain below in the potential problems section.
+
+![source-control](./assets/documentation/readme_images/source_control.png)
 
 **Potential problems**
 
