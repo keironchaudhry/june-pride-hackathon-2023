@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    font-family: 'Karla', sans-serif;
+    height: 79px;
+    line-height: 85px;
+}
+
+.social-nav i {
+    font-size: 0.9rem !important;
+}
+
+.hero {
+    /* height: 60vh; */
+    background: rgb(255, 0, 24);
+    background: linear-gradient(135deg, rgba(255, 0, 24, 1) 10%, rgba(255, 165, 44, 1) 25%, rgba(255, 255, 0, 1) 40%, rgba(0, 128, 24, 1) 56%, rgba(0, 0, 255, 1) 72%, rgba(128, 0, 128, 1) 88%);
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-image: url(../images/Pod-Mark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-txt {
+    font-size: 2.8rem;
+    line-height: 1.4;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-family: "Oswald", serif;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 992px) {
+    .hero {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+
+    .hero-img {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .hero {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+
+
+}
