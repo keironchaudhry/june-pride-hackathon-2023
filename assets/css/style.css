@@ -196,6 +196,7 @@ nav {
     margin-bottom: 30px;
 }
 
+
 /* Discussion page CSS */
 .discussion-heading {
     margin-left: 50px;
@@ -210,3 +211,16 @@ nav {
     margin-bottom: 30px;
 }
 
+/* Testimonials audio */
+
+audio {
+    width: 480px;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 500px) {
+    audio {
+        width: 100%;
+    }
+}
