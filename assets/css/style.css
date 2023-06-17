@@ -19,7 +19,7 @@ nav {
 /* ------------------------------------Hero styling  */
 .hero {
     background: rgb(51, 0, 102);
-    background: linear-gradient(142deg, rgba(51, 0, 102, 1) 0%, rgba(255, 0, 102, 1) 25%, rgba(255, 153, 0, 1) 50%, rgba(255, 255, 0, 1) 75%, rgba(0, 255, 204, 1) 100%);
+    background: linear-gradient(122deg, rgba(51, 0, 102, 0.7) 0%, rgba(255, 0, 102, 0.7) 25%, rgba(255, 153, 0, 0.7) 50%, rgba(255, 255, 0, 0.7) 75%, rgba(0, 255, 204, 0.7) 100%);
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     background-repeat: no-repeat;
@@ -142,7 +142,7 @@ nav {
 .hero-image {
     height: 70vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("/assets/images/hero-image-history.png");
+        url("/assets/images/hero-image-history.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
