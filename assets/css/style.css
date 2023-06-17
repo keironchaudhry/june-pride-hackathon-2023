@@ -161,3 +161,18 @@ nav {
     margin-bottom: 40px;
     background-image: linear-gradient(to right, #FAFAFA, #000, #FAFAFA);
 }
+
+/* Discussion page CSS */
+.discussion-heading {
+    margin-left: 50px;
+}
+
+.conversation-image {
+    height: 50vh;
+    background: url("/assets/images/conversation3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
