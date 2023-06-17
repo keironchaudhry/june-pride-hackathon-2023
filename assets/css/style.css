@@ -23,21 +23,10 @@ nav {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     background-repeat: no-repeat;
-    /* background-size: contain; */
     background-size: cover;
     background-position: center;
 }
 
-/* 
-.b{
-    height: 70vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("/assets/images/hero-image-history.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 30px;
-} */
 .hero-txt {
     font-size: 2.8rem;
     line-height: 1.4;
@@ -186,4 +175,100 @@ nav {
     .home-card {
         width: 90%;
     }
+}
+
+/* History page CSS */
+
+.hero-image {
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+        url("/assets/images/hero-image-history.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.event-container {
+    position: relative;
+}
+
+.second-hero-image {
+    position: relative;
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("/assets/images/event.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    z-index: 1;
+    color: #fff;
+}
+
+.text-overlay .description {
+    margin-top: 20px;
+}
+
+.description {
+    margin-bottom: 30px;
+}
+
+.break {
+    border: 0;
+    height: 1px;
+    background: #333;
+    align-items: center;
+    margin-bottom: 40px;
+    background-image: linear-gradient(to right, #fafafa, #000, #fafafa);
+}
+
+.turing-bottom-image {
+    margin-bottom: 30px;
+}
+
+
+/* Discussion page CSS */
+.discussion-heading {
+    margin-left: 50px;
+}
+
+.conversation-image {
+    height: 50vh;
+    background: url("/assets/images/conversation3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+/* Testimonials audio */
+
+audio {
+    width: 480px;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 500px) {
+    audio {
+        width: 100%;
+    }
+}
+
+/* CSS for SamPetchey branch */
+
+.conv {
+    width: 80vw;
+    margin: auto;
+    text-align: center;
 }
