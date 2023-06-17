@@ -224,3 +224,11 @@ audio {
         width: 100%;
     }
 }
+
+/* CSS for SamPetchey branch */
+
+.conv {
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+}
