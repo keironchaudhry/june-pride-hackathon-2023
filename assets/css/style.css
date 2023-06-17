@@ -16,15 +16,14 @@ nav {
     font-size: 0.9rem !important;
 }
 
+/* ------------------------------------Hero styling  */
 .hero {
-    /* height: 60vh; */
-    background: rgb(255, 0, 24);
-    background: linear-gradient(135deg, rgba(255, 0, 24, 1) 10%, rgba(255, 165, 44, 1) 25%, rgba(255, 255, 0, 1) 40%, rgba(0, 128, 24, 1) 56%, rgba(0, 0, 255, 1) 72%, rgba(128, 0, 128, 1) 88%);
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-    background-image: url(../images/Pod-Mark.jpg);
+    background: rgb(51, 0, 102);
+    background: linear-gradient(142deg, rgba(51, 0, 102, 1) 0%, rgba(255, 0, 102, 1) 25%, rgba(255, 153, 0, 1) 50%, rgba(255, 255, 0, 1) 75%, rgba(0, 255, 204, 1) 100%);
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .hero-txt {
@@ -36,12 +35,92 @@ nav {
     font-weight: 400;
 }
 
-@media only screen and (max-width: 768px) {}
 
-@media only screen and (max-width: 992px) {
-    .hero {
-        padding-top: 10rem;
-        padding-bottom: 10rem;
+/* -----------------------------------Home page styling */
+.home-nav {
+    height: 20vh !important;
+    display: flex;
+    align-items: center;
+
+}
+
+.home-container {
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.home-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.home-card {
+    width: 32vw;
+    position: relative;
+    overflow: hidden;
+    margin: 3px;
+
+}
+
+.home-img {
+    width: 100%;
+}
+
+.home-card:hover {
+    opacity: 0.5;
+}
+
+.home-txt {
+    font-size: clamp(3rem, 4vw, 8rem);
+    font-family: "Oswald", serif;
+    font-weight: bold;
+    position: absolute;
+    color: #fff !important;
+    bottom: 10%;
+    right: 7%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
+}
+
+/* Screens above 992px */
+@media only screen and (max-width: 993px) {
+    .home-card {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .home-container {
+        height: 95vh;
+        display: block;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Screens between 769px and 992px */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+
+    .home-container {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
     }
 
     .hero-img {
@@ -51,11 +130,34 @@ nav {
     }
 }
 
-@media only screen and (min-width: 1200px) {
-    .hero {
-        padding-top: 12rem;
-        padding-bottom: 12rem;
+/* Screens up to 768px */
+@media only screen and (max-width: 599px) {
+    .home-card {
+        width: 90%;
     }
+}
 
+/* History page CSS */
 
+.hero-image {
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/assets/images/hero-image-history.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.description {
+    margin-bottom: 30px;
+}
+
+.break {
+    border: 0;
+    height: 1px;
+    background: #333;
+    align-items: center;
+    margin-bottom: 40px;
+    background-image: linear-gradient(to right, #FAFAFA, #000, #FAFAFA);
 }
