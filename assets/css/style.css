@@ -23,9 +23,21 @@ nav {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     background-repeat: no-repeat;
-    background-size: contain;
+    /* background-size: contain; */
+    background-size: cover;
+    background-position: center;
 }
 
+/* 
+.b{
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("/assets/images/hero-image-history.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+} */
 .hero-txt {
     font-size: 2.8rem;
     line-height: 1.4;
@@ -98,6 +110,45 @@ nav {
     padding: 5px;
 }
 
+/* History page CSS */
+
+.hero-image {
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("/assets/images/hero-image-history.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.description {
+    margin-bottom: 30px;
+}
+
+.break {
+    border: 0;
+    height: 1px;
+    background: #333;
+    align-items: center;
+    margin-bottom: 40px;
+    background-image: linear-gradient(to right, #FAFAFA, #000, #FAFAFA);
+}
+
+/* Discussion page CSS */
+.discussion-heading {
+    margin-left: 50px;
+}
+
+.conversation-image {
+    height: 50vh;
+    background: url("/assets/images/conversation3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
 /* Screens above 992px */
 @media only screen and (max-width: 993px) {
     .home-card {
@@ -135,29 +186,4 @@ nav {
     .home-card {
         width: 90%;
     }
-}
-
-/* History page CSS */
-
-.hero-image {
-    height: 70vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("/assets/images/hero-image-history.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 30px;
-}
-
-.description {
-    margin-bottom: 30px;
-}
-
-.break {
-    border: 0;
-    height: 1px;
-    background: #333;
-    align-items: center;
-    margin-bottom: 40px;
-    background-image: linear-gradient(to right, #FAFAFA, #000, #FAFAFA);
 }
