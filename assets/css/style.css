@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 nav {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
@@ -14,6 +15,12 @@ nav {
 
 .social-nav i {
     font-size: 0.9rem !important;
+}
+
+.story {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
 }
 
 /* ------------------------------------Hero styling  */
@@ -39,14 +46,15 @@ nav {
 
 /* -----------------------------------Home page styling */
 .home-nav {
-    height: 20vh !important;
+    /* height: 10vh !important; */
     display: flex;
     align-items: center;
-
+    padding-top: 6rem;
 }
 
 .home-container {
-    height: 60vh;
+    /* height: 60vh; */
+    padding-top: 6rem;
     display: flex;
     margin: auto;
     justify-content: center;
@@ -59,7 +67,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 98.5%;
     background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -80,13 +88,14 @@ nav {
 }
 
 .home-txt {
-    font-size: clamp(3rem, 4vw, 8rem);
+    font-size: clamp(2rem, 3vw, 5rem);
     font-family: "Oswald", serif;
     font-weight: bold;
     position: absolute;
     color: #fff !important;
-    bottom: 10%;
-    right: 7%;
+    top: 81%;
+    left: 39%;
+    transform: translate(-33%, -30%);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -157,7 +166,6 @@ nav {
 /* Screens between 769px and 992px */
 @media only screen and (min-width: 769px) and (max-width: 992px) {
 
-
     .home-container {
         margin-top: 5rem;
         margin-bottom: 5rem;
@@ -168,6 +176,10 @@ nav {
         bottom: 0px;
         right: 0px;
     }
+
+    .home-txt {
+        font-size: 4rem;
+    }
 }
 
 /* Screens up to 768px */
@@ -175,6 +187,7 @@ nav {
     .home-card {
         width: 90%;
     }
+
 }
 
 /* History page CSS */
