@@ -1,6 +1,6 @@
-const empatheticQuestion = [
+const questionPool = [
     'Given the choice of anyone in the world, whom would you want as a dinner guest?',
-    'Would you like to be famous ? In what way?',
+    'Would you like to be famous? In what way?',
     'Before making a telephone call, do you ever rehearse what you are going to say? Why?',
     'What would constitute a "perfect" day for you?',
     'When did you last sing to yourself? To someone else?',
@@ -35,4 +35,15 @@ const empatheticQuestion = [
     'Your house, containing everything you own, catches fire. After saving your loved ones and pets, you have time to safely make a final dash to save any one item. What would it be? Why?', 'Of all the people in your family, whose death would you find most disturbing? Why?', 'Share a personal problem and ask your partner’s advice on how he or she might handle it. Also, ask your partner to reflect back to you how you seem to be feeling about the problem you have chosen.',
 ];
 
-document.getElementById("empatheticQuestion").innerHTML = `${score}`;
+let question;
+let randomQuestion;
+
+// add event listener to activate the question button.
+questionButton.addEventListener('click', generateQuestion);
+
+function generateQuestion() {
+    let randomQuestion = questionPool[Math.floor(Math.random() * questionPool.length)]
+    document.getElementById("question").innerHTML = `${randomQuestion}`;
+}
+    
+

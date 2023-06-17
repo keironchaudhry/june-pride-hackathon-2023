@@ -162,16 +162,19 @@ nav {
     background-image: linear-gradient(to right, #FAFAFA, #000, #FAFAFA);
 }
 
-audio {
-    width: 480px;
+
+/* Discussion page CSS */
+.discussion-heading {
+    margin-left: 50px;
 }
 
-@media screen and (max-width: 500px) {
-    audio {
-        width: 100%;
-    }
+.conversation-image {
+    height: 50vh;
+    background: url("/assets/images/conversation3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 30px;
 }
-
-
 
 
