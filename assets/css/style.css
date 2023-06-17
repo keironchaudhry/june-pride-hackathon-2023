@@ -176,3 +176,9 @@ nav {
     margin-bottom: 30px;
 }
 
+.conv {
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+}
+
