@@ -161,3 +161,17 @@ nav {
     margin-bottom: 40px;
     background-image: linear-gradient(to right, #FAFAFA, #000, #FAFAFA);
 }
+
+audio {
+    width: 480px;
+}
+
+@media screen and (max-width: 500px) {
+    audio {
+        width: 100%;
+    }
+}
+
+
+
+
