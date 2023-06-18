@@ -161,7 +161,7 @@ The [JSHint Validation Service](https://jshint.com/) for the JavaScript code was
 
 ## **Deployment, Development & Version Control**
 
-The development environment used for this project was GitPod.
+The development environment used for this project was VSCode, GitPod and CodeAnywhere.
 
 Each software developer on the team created their own individual branch divergent from main from the get-go and have communicated via Slack to collaborate, pitch ideas, fix bugs and talk about relevant Pull Requests. Regular commits and pushes to Github have been employed to be able to track and trace the development process of the web application.
 
