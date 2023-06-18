@@ -103,7 +103,6 @@ nav i {
 }
 
 .home-container {
-    /* height: 60vh; */
     padding-top: 6rem;
     display: flex;
     margin: auto;
@@ -139,7 +138,6 @@ nav i {
 
 .home-txt {
     font-size: clamp(2rem, 3vw, 5rem);
-    /* font-family: "Oswald", serif; */
     font-weight: bold;
     position: absolute;
     color: #fff !important;
@@ -165,7 +163,7 @@ nav i {
 /* ------------ History page CSS ------------ */
 
 .hero-image {
-    height: 70vh;
+    height: 507.75px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("/assets/images/hero-image-history.png");
     background-repeat: no-repeat;
@@ -199,7 +197,7 @@ nav i {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
 }
 
 .conv {
@@ -215,7 +213,7 @@ nav i {
 /* ------------  Milestones page CSS ------------  */
 
 .hero-image {
-    height: 70vh;
+    height: 507.75px;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
         url("../images/hero-image-history.png");
     background-repeat: no-repeat;
@@ -280,9 +278,32 @@ audio {
 
 #questionButton {
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 0.9rem;
 }
 
+/* ------------ FOOTER QUERIES ------------ */
+.social-nav-footer {
+    padding: 1.5rem;
+    font-size: 1.4rem;
+}
+
+footer {
+    padding: 2rem 3rem 1rem;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0;
+}
+
+.footer-text {
+    width: 80%;
+    padding-bottom: 1rem;
+    margin: auto !important;
+    font-size: 0.9rem !important;
+
+}
 
 /* ------------ MEDIA QUERIES ------------ */
 
@@ -291,7 +312,6 @@ audio {
         width: 100%;
     }
 }
-
 
 /* Screens above 992px */
 @media only screen and (max-width: 993px) {
