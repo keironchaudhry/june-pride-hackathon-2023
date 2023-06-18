@@ -49,7 +49,7 @@ Connect+ prioritises delivering a seamless and delightful user experience to ens
 
 ## **Target Audience**
 
-To be added.
+Our target audience is everybody that is a part of the LGBTQ+ community, and even those who are allies, thus being able to educate themselves and learn about LGBTQ+ community by having exposure to the history and struggles in this domain.
 
 ## **User Stories**
 
