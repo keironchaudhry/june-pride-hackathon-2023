@@ -78,7 +78,6 @@ To be added.
 
 To be added
 
-<br>
 
 ### **Fonts**
 
@@ -96,7 +95,6 @@ To be added.
 
 To be added.
 
-<hr>
 
 ## **Features**
 
@@ -126,7 +124,7 @@ Manual testing following the User Stories was carried out throughout the develop
 
 ### **Fixed bugs**
 
-To find a list of fixed bugs that were mended during development, please click [here]().
+To find a list of fixed bugs that were mended during development, please click [here](https://github.com/keironchaudhry/june-pride-hackathon-2023/issues?q=label%3Abug+is%3Aclosed).
 
 ### **Remaining bugs**
 
