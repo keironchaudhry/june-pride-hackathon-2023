@@ -53,7 +53,20 @@ Our target audience is everybody that is a part of the LGBTQ+ community, and eve
 
 ## **User Stories**
 
-To be added.
+As a **user**, I want **to be able to view a consistent colour scheme across the application** so that **the application and its navigation feels like a smooth transition**.
+
+As a **user**, I want **to be able to find and access the navigation bar** so that I can **navigate around the application with ease**.
+
+As a **user**, I want **to be able to view the footer** so that I can **view any extra beneficial information regarding the application**.
+
+As a **user**, I want **to be able to land on the home page** so that I am **able to have a central point of contact in the application**.
+
+As a **user**, I want **to be able to find a question game** so that I can **play it in person with another stranger to get to know them better**.
+
+As a **user**, I want **to be able to listen to different podcasts** so that I can **engage and associate with the experiences of others**.
+
+As a **user**, I want **to be able to view historical information** so that I can **learn and appreciate LGBTQ+ history**.
+
 
 ## **Design**
 
