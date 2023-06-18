@@ -35,7 +35,7 @@ Live deployment link can be found [here](https://keironchaudhry.github.io/june-p
 
 ## **Project Goals**
 
-To be added.
+Based on the Code Institute Hackathon June 2023 Theme of "Pride", create an application which follows the theme of LGBTQ+ Pride. The application should be meaningful and educative, and bring purpose and connection to the user.
 
 ## **User Experience**
 
