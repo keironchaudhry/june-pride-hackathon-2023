@@ -4,6 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="hackathon, june 2023, lgbtq, pride month" />
+  <meta name="keywords" content="lesbian, gay, transgender, rainbow, lgbtq, bisexual, inclusivity, hackathon" />
+  <meta name="author"
+    content="iberico alex, samuel ukachukwu, keiron chaudhry, sam petchey, stephen kofi, hermon asmelash, code institute" />
 
   <link rel="icon" href="assets/images/favicon.ico">
   <link rel="stylesheet" href="./assets/css/style.css" />
@@ -53,7 +57,7 @@
       meaningful interactions and unlocks new insights. Unleash the power of conversation and discover together!</p>
   </div>
   <div class="section conv">
-    <button class="btn" id="questionButton">Start a conversation</button>
+    <button class="btn fancy-btn" id="questionButton">Start a conversation</button>
   </div>
   <div id="empatheticQuestion" class="section conv">
     <h4 id="question">Given the choice of anyone in the world, whom would you want as a dinner guest?</h4>
@@ -70,7 +74,7 @@
           <p class="footer-text">"Inclusivity is the heart of our platform. Join us in amplifying LGBTQ+
             narratives and making history
             together.</p>
-          <a id="questionButton" class="btn"
+          <a class="btn fancy-btn"
             href="mailto:miyace4965@byorby.com?Subject=Tell your story&body=We invite you to share your testimonials and stories with us! We believe that your firsthand accounts and personal journeys are powerful tools in helping others make informed decisions about our products/services.">Tell
             Your Story</a>
 
@@ -90,11 +94,28 @@
   <!-- JavaScript -->
   <script src="https://kit.fontawesome.com/0e95d75add.js" crossorigin="anonymous"></script>
   <script src="./assets/js/script.js"></script>
+  <script>
+    const mobileScreen = window.matchMedia('(max-width: 992px)');
+    const navWrapper = document.querySelector('.nav-wrapper');
 
+    function adjMobileScreen(event) {
+      if (event.matches) {
+        navWrapper.classList.add('center');
+      } else {
+        navWrapper.classList.remove('center');
+      }
+    }
+    adjMobileScreen(mobileScreen);
+    mobileScreen.addListener(adjMobileScreen);
+  </script>
   <script>
     $(document).ready(function () {
       $(".sidenav").sidenav();
     });
+  </script>
+  <script>
+    document.getElementById("copy-right1").innerHTML =
+      new Date().getFullYear();
   </script>
 </body>
 
