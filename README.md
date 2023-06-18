@@ -68,28 +68,43 @@ As a **user**, I want **to be able to listen to different podcasts** so that I c
 As a **user**, I want **to be able to view historical information** so that I can **learn and appreciate LGBTQ+ history**.
 
 
+
 ## **Design**
+With a focus on minimalism and contemporary aesthetics, we made a deliberate choice to steer away from the conventional pride color scheme. Our aim was to avoid any over-the-top elements commonly associated with the LGBTQ+ community. Nevertheless, we incorporated a vibrant palette reminiscent of the colors of the pride rainbow, but with reduced opacity to ensure that unnecessary content doesn't distract attention.
+
+Other details to note:
+- The portraits featured on the Testimonials page were generated using Midjourney.
+- Other visuals were obtained from reputable image stock databases such as Pexels and Envato.
 
 ### **Design Choices**
 
 To be added.
 
 ### **Colour**
+In designing the website, we made a deliberate choice to incorporate a vibrant color palette. However, we were keen on avoiding the stereotypical kitschy pride colors and instead aimed for a fresh and unique approach. To maintain a harmonious visual experience, we also decreased the opacity of the colors, ensuring a balanced and pleasing aesthetic without overwhelming or conflicting color clashes.
 
-To be added
-
-
+![Color palette](./assets/documentation/readme_images/Color-palette.png)
 ### **Fonts**
 
 To be added.
 
 ### **Music & Sounds**
-
-To be added.
+In order to provide an exceptional user experience and offer a realistic preview of the website's functionality, we took steps to create an immersive audio experience. For each story, we generated podcasts featuring diverse voices. These voices were recorded using specialized AI software that seamlessly converts text into speech. The audio content for each testimonial was generated using ChatGPT, where we selectively prompted the stories we wished to share.
 
 ### **Wireframes**
+- Index page
+![Wireframe index](./assets/documentation/readme_images/index.png)
 
-To be added.
+- Testimonials page
+![Wireframe index](./assets/documentation/readme_images/testimonials.png)
+
+- Conversation page
+![Wireframe index](./assets/documentation/readme_images/conversation.png)
+
+- Milestones page
+![Wireframe index](./assets/documentation/readme_images/milestones.png)
+
+
 
 ## **Technologies, Languages & Programs Used**
 

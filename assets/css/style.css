@@ -34,13 +34,27 @@ nav i {
     font-style: normal;
 }
 
-.story {
+/* .story {
     position: fixed;
     bottom: 10%;
     right: 10%;
     z-index: 999;
+} */
+
+.mobile-site-bar {
+    display: flex !important;
+    height: 100vh !important;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(247, 216, 228) !important;    
 }
 
+.mobile-links, .mobile-links li a {
+    width: 100% !important;
+    font-size: 1.7rem !important;
+    letter-spacing: 2px !important;
+    margin-bottom: 1rem !important;
+}
 
 
 /* ------------ Hero styling ------------ */
