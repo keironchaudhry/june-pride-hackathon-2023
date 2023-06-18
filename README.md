@@ -88,7 +88,7 @@ In order to provide an exceptional user experience and offer a realistic preview
 
 ### **Wireframes**
 - Index page
-![Wireframe index](./assets/documentation/readme_images/index.html)
+![Wireframe index](./assets/documentation/readme_images/index.png)
 
 - Testimonials page
 ![Wireframe index](./assets/documentation/readme_images/testimonials.png)
