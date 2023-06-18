@@ -41,6 +41,25 @@ nav i {
     z-index: 999;
 }
 
+/* ----------scrollbar styling  ------------*/
+::-webkit-scrollbar {
+    width: .5vw;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #5db1e2;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(122deg, rgba(51, 0, 102, 0.7) 0%, rgba(255, 0, 102, 0.7) 25%, rgba(255, 153, 0, 0.7) 50%, rgba(255, 255, 0, 0.7) 75%, rgba(0, 255, 204, 0.7) 100%);
+}
+
 
 
 /* ------------ Hero styling ------------ */
@@ -335,7 +354,7 @@ footer {
 .error-pg-bx {
     background: linear-gradient(122deg, #330066b3 0%, #ff0066b3 25%, #ff9900b3 50%, #ffff00b3 75%, #00ffccb3 100%);
     padding: 4rem 0;
-    margin: 3rem 0;
+    margin: 6rem 0;
     animation: pride-gradient 7s linear infinite;
 }
 
