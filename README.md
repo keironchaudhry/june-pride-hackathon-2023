@@ -76,24 +76,19 @@ Other details to note:
 - The portraits featured on the Testimonials page were generated using Midjourney.
 - Other visuals were obtained from reputable image stock databases such as Pexels and Envato.
 
-### **Design Choices**
-
-To be added.
-
 ### **Colour**
 In designing the website, we made a deliberate choice to incorporate a vibrant color palette. However, we were keen on avoiding the stereotypical kitschy pride colors and instead aimed for a fresh and unique approach. To maintain a harmonious visual experience, we also decreased the opacity of the colors, ensuring a balanced and pleasing aesthetic without overwhelming or conflicting color clashes.
 
-![Color palette](./assets/documentation/readme_images/Color-palette.png)
+![Color palette](./assets/documentation/readme_images/color-palette.png)
 ### **Fonts**
-
-To be added.
+To achieve a distinctive and contemporary logo, we utilized the **Rubik font**, known for its unique style and modern appeal. For the heading sections, we opted for the **Oswald font**, which adds a touch of sophistication and boldness. To complement the overall design, we selected the trendy 2023 font called **Karla font** for the remaining text body, ensuring a visually pleasing and cohesive look throughout the website.
 
 ### **Music & Sounds**
 In order to provide an exceptional user experience and offer a realistic preview of the website's functionality, we took steps to create an immersive audio experience. For each story, we generated podcasts featuring diverse voices. These voices were recorded using specialized AI software that seamlessly converts text into speech. The audio content for each testimonial was generated using ChatGPT, where we selectively prompted the stories we wished to share.
 
 ### **Wireframes**
 - Index page
-![Wireframe index](./assets/documentation/readme_images/index.png)
+![Wireframe index](./assets/documentation/readme_images/index.html)
 
 - Testimonials page
 ![Wireframe index](./assets/documentation/readme_images/testimonials.png)
@@ -103,8 +98,6 @@ In order to provide an exceptional user experience and offer a realistic preview
 
 - Milestones page
 ![Wireframe index](./assets/documentation/readme_images/milestones.png)
-
-
 
 ## **Technologies, Languages & Programs Used**
 
@@ -121,6 +114,7 @@ In order to provide an exceptional user experience and offer a realistic preview
 * [CodeAnywhere](https://codeanywhere.com/): Cloud-based integrated development environment (IDE) for coding, collaborating, and deploying projects.
 * [GitPod](https://gitpod.io/): Online IDE specifically designed for developing applications with Git repositories. It provides a fully configured development environment for each project.
 * [VSCode](https://code.visualstudio.com/): Free and highly extensible source code editor with built-in features for editing, debugging, and version control integration. It supports various programming languages and is available for multiple platforms.
+* [AIstudios](https://aistudios.com/): Tool used to produce the pidcast audios with generative AI just a written script.
 
 ## **Features**
 

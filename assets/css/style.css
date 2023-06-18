@@ -348,7 +348,7 @@ footer {
 .error-pg-bx {
     background: linear-gradient(122deg, #330066b3 0%, #ff0066b3 25%, #ff9900b3 50%, #ffff00b3 75%, #00ffccb3 100%);
     padding: 4rem 0;
-    margin: 3rem 0;
+    margin: 6rem 0;
     animation: pride-gradient 7s linear infinite;
 }
 
