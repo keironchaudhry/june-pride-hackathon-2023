@@ -5,41 +5,34 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <link rel="icon" href="assets/images/favicon.ico">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600&family=Oswald:wght@400;500;600&display=swap"
     rel="stylesheet">
 
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-  <!-- Compiled and minified JavaScript -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-  <link rel="stylesheet" href="./assets/css/style.css" />
-
-  <!-- mediaelement.js CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.14/mediaelementplayer.min.css" />
-
-
-
-
-  <title>Connect +</title>
+  <title>CONNECT +</title>
 </head>
 
 <body>
   <nav class="white m-4" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo black-text">Logo</a>
+      <a href="index.html" class="black-text logo-container"
+        style="font-size: clamp(1.5rem, 2vw, 2rem); font-weight: 800; font-family: 'Rubik', sans-serif;">CONNECT
+        <span><img src="assets/images/Plus-Symbol.png" alt="Logo symbol" style=" width: clamp(25px, 4vw, 30px);"></span>
+      </a>
       <ul class="right hide-on-med-and-down">
-        <!-- <li><a class="black-text" href="#">About</a></li> -->
-        <li><a class="black-text" href="#">PridePassage</a></li>
-        <li><a class="black-text" href="#">PridePodium</a></li>
-        <li><a class="black-text social-nav" href="#"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a class="black-text social-nav" href="#"><i class="fab fa-twitter"></i></a></li>
-        <li><a class="black-text social-nav" href="#"><i class="fab fa-soundcloud"></i></a></li>
-        <li><a class="black-text social-nav" href="#"><i class="fab fa-youtube"></i></a></li>
-        <li><a class="black-text btn" href="#">PrideConverse</a></li>
+        <li><a class="black-text active" href="#">Testimonials</a></li>
+        <li><a class="black-text" href="conversation.html">Conversation</a></li>
+        <li><a class="black-text" href="milestones.html">Milestones</a></li>
+        <li><a class="black-text social-nav" href="https://www.facebook.com/" target="_blank" rel="noopener"><i
+              class="fab fa-facebook-f"></i></a></li>
+        <li><a class="black-text social-nav" href="https://twitter.com/" target="_blank" rel="noopener"><i
+              class="fab fa-twitter"></i></a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
@@ -48,26 +41,17 @@
       <a href="#" data-target="nav-mobile" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-  <!-- <div class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col s12 m6">
-          <h5>Section 1</h5>
-          <p>Stuff</p>
-        </div>
-        <div class="col s12 m6">
-          <h5>Section 1</h5>
-          <p>Stuff</p>
-        </div>
-      </div>
-    </div>
-  </div> -->
+
+  <a class="black-text btn story"
+    href="mailto:miyace4965@byorby.com?Subject=Tell your story&body=We invite you to share your testimonials and stories with us! We believe that your firsthand accounts and personal journeys are powerful tools in helping others make informed decisions about our products/services.">Tell
+    Your Story</a>
+
   <div class="section hero">
     <!-- Hero Content goes here -->
     <div class="container">
       <div class="row">
         <div class="col s12 m7">
-          <h1 class="hero-txt">Embracing Resilience: Mark's Journey from Mockery to Advocacy</h1>
+          <h1 class="hero-txt white-text">Embracing Resilience: Mark's Journey from Mockery to Advocacy</h1>
           <div>
             <audio id="media1" controls>
               <source src="assets/podcasts/Pod-Mark.mp3" type="audio/mp3">
@@ -84,18 +68,18 @@
     <h2>Listen To Their Stories</h2>
     <hr>
     <div class="section">
-    <h3>Mark</h3>
-    <div>
-      <img class="responsive-img" src="assets/images/Pod-Mark.jpg" alt="Image of Mark" />
-    </div>
-    <br>
-    <div>
-      <audio controls>
+      <h3>Mark</h3>
+      <div>
+        <img class="responsive-img" src="assets/images/Pod-Mark.jpg" alt="Image of Mark" />
+      </div>
+      <br>
+      <div>
+        <audio controls>
           <source src="assets/podcasts/Pod-Mark.mp3" type="audio/mp3" />
-      </audio>
-    </div>
-    <br>
-    <p class="flow-text">
+        </audio>
+      </div>
+      <br>
+      <p class="flow-text">
         Mark, a 20-year-old homosexual man from Brussels, reflects on his
         experiences of being mocked and feeling unsafe due to his sexual
         orientation. However, after being attacked, he found strength and
@@ -103,22 +87,22 @@
         an advocate for acceptance and equality. His story serves as an
         inspiration to others, emphasizing the importance of embracing one's true
         self and standing up against prejudice.
-    </p>
+      </p>
     </div>
-    <hr/>
+    <hr />
     <div class="section">
-    <h3>Elijah</h3>
-    <div>
-      <img class="responsive-img" src="assets/images/Pod-Elijah.jpg" alt="Image of Elijah" />
-    </div>
-    <br>
-    <div>
-      <audio controls class="js-player" id="plyr-1" crossorigin playsinline>
+      <h3>Elijah</h3>
+      <div>
+        <img class="responsive-img" src="assets/images/Pod-Elijah.jpg" alt="Image of Elijah" />
+      </div>
+      <br>
+      <div>
+        <audio controls class="js-player" id="plyr-1" crossorigin playsinline>
           <source src="assets/podcasts/Pod-Elijah.mp3" />
-      </audio>
-    </div>
-    <br>
-    <p class="flow-text">
+        </audio>
+      </div>
+      <br>
+      <p class="flow-text">
         Elijah, in their 40s, shares their journey of discovering their
         non-binary, trans-masculine identity while navigating their Jewish faith.
         Despite initial concerns about the compatibility of being trans and
@@ -128,44 +112,44 @@
         negative online reactions. Elijah emphasizes the importance of personal
         faith and hopes for a broader understanding of the multi-faceted nature of
         being transgender.
-    </p>
+      </p>
     </div>
     <hr />
     <div class="section">
-    <h3>Emily</h3>
-    <div class="">
-      <img class="responsive-img" src="assets/images/Pod-Emily.jpg" alt="Image of Emily" />
-    </div>
-    <br>
-    <div>
-      <audio controls>
-        <source src="assets/podcasts/Pod-Emily.mp3" type="audio/mp3" />
-      </audio> 
-    </div>
-    <br>
-    <br>
-    <p class="flow-text">
+      <h3>Emily</h3>
+      <div class="">
+        <img class="responsive-img" src="assets/images/Pod-Emily.jpg" alt="Image of Emily" />
+      </div>
+      <br>
+      <div>
+        <audio controls>
+          <source src="assets/podcasts/Pod-Emily.mp3" type="audio/mp3" />
+        </audio>
+      </div>
+      <br>
+      <br>
+      <p class="flow-text">
         Emily, age 16, reflects on her journey as a lesbian and her feelings for
         her best friend. She grapples with societal stereotypes and fears about
         coming out to her family and friends. Emily emphasizes the importance of
         acceptance, understanding, and the need to see beyond stereotypes in order
         to embrace love in all its forms.
-    </p>
+      </p>
     </div>
     <hr />
     <div class="section">
-    <h3>Nikki</h3>
-    <div>
-      <img class="responsive-img" src="assets/images/Pod-Nikki.jpg" alt="Image of Nikki" />
-    </div>
-    <br>
-    <div>
-      <audio controls>
+      <h3>Nikki</h3>
+      <div>
+        <img class="responsive-img" src="assets/images/Pod-Nikki.jpg" alt="Image of Nikki" />
+      </div>
+      <br>
+      <div>
+        <audio controls>
           <source src="assets/podcasts/Pod-Nikki.mp3" type="audio/mp3" />
-      </audio>
-    </div>
-    <br>
-    <p class="flow-text">
+        </audio>
+      </div>
+      <br>
+      <p class="flow-text">
         Nikki, a 26-year-old from London, shares their journey of discovering and
         accepting their transgender identity. From early memories of feeling
         different to finding understanding on YouTube, Nikki transitioned without
@@ -173,7 +157,7 @@
         part of who they are and desire happiness, respect, and acceptance. Their
         story challenges prejudices and highlights the shared humanity between
         trans and cisgender individuals.
-    </p>
+      </p>
     </div>
     <hr />
     <h3>Pedro</h3>
@@ -183,19 +167,19 @@
     <br>
     <div>
       <audio controls>
-          <source src="assets/podcasts/Pod-Pedro.mp3" type="audio/mp3" />
+        <source src="assets/podcasts/Pod-Pedro.mp3" type="audio/mp3" />
       </audio>
     </div>
     <br>
     <p class="flow-text">
-        Pedro, a 27-year-old man from a small, conservative village in Spain,
-        shares his journey of coming to terms with his sexuality. After facing
-        rejection from his family, he found support in Barcelona's LGBTQ+
-        community. Through resilience and self-acceptance, he discovered love and
-        happiness. Although his family hasn't fully accepted him, he remains
-        hopeful and advocates for acceptance and equality.
+      Pedro, a 27-year-old man from a small, conservative village in Spain,
+      shares his journey of coming to terms with his sexuality. After facing
+      rejection from his family, he found support in Barcelona's LGBTQ+
+      community. Through resilience and self-acceptance, he discovered love and
+      happiness. Although his family hasn't fully accepted him, he remains
+      hopeful and advocates for acceptance and equality.
     </p>
-    </div>
+  </div>
 
   <footer>
     <!-- footer contents here -->
