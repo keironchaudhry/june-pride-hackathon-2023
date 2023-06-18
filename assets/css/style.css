@@ -34,11 +34,19 @@ nav i {
     font-style: normal;
 }
 
-.story {
+/* .story {
     position: fixed;
     bottom: 10%;
     right: 10%;
     z-index: 999;
+} */
+
+.mobile-site-bar {
+    display: flex !important;
+    height: 100vh !important;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(247, 216, 228) !important;
 }
 
 /* ----------scrollbar styling  ------------*/
@@ -60,6 +68,13 @@ nav i {
     background: linear-gradient(122deg, rgba(51, 0, 102, 0.7) 0%, rgba(255, 0, 102, 0.7) 25%, rgba(255, 153, 0, 0.7) 50%, rgba(255, 255, 0, 0.7) 75%, rgba(0, 255, 204, 0.7) 100%);
 }
 
+.mobile-links,
+.mobile-links li a {
+    width: 100% !important;
+    font-size: 1.7rem !important;
+    letter-spacing: 2px !important;
+    margin-bottom: 1rem !important;
+}
 
 
 /* ------------ Hero styling ------------ */
