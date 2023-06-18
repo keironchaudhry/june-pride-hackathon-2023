@@ -1,10 +1,10 @@
-# **Title**
+# **Connect+**
 
-![landing-page-photo]()
+![landing-page-photo](./assets/documentation/readme_images/amiresponsive.png)
 
-Introduction:
+Connect+ is an inclusive application designed to empower and connect the LGBTQ+ community. Whether you're looking for an engaging podcast, exploring LGBTQ+ history, or challenging your knowledge with a fun question game, Connect+ is here to provide an enriching experience for everyone.
 
-Live deployment link can be found [here]().
+Live deployment link can be found [here](https://keironchaudhry.github.io/june-pride-hackathon-2023/).
 
 # Table of Contents
 
