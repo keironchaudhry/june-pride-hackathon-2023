@@ -42,14 +42,14 @@
     </div>
   </nav>
 
-  <a class="black-text btn story"
+  <a id="questionButton" class="btn story"
     href="mailto:miyace4965@byorby.com?Subject=Tell your story&body=We invite you to share your testimonials and stories with us! We believe that your firsthand accounts and personal journeys are powerful tools in helping others make informed decisions about our products/services.">Tell
     Your Story</a>
 
   <div class="section hero">
     <!-- Hero Content goes here -->
     <div class="container">
-      <div class="row">
+      <div class="row hero-box">
         <div class="col s12 m7 hero-title">
           <h1 class="hero-txt white-text">Embracing Resilience:<br>Mark's Journey from Mockery to Advocacy</h1>
           <div>
@@ -58,128 +58,141 @@
             </audio>
           </div>
         </div>
-        <div class="col s12 m5">
+        <div class="col s12 m5 hero-left-img">
           <img src="assets/images/Pod-Mark_transp.png" alt="image of mark">
         </div>
       </div>
     </div>
   </div>
+
+  <!-- main content starts here  -->
   <div class="container">
-    <h2>Listen To Their Stories</h2>
-    <hr>
-    <div class="section">
-      <h3>Mark</h3>
-      <div>
-        <img class="responsive-img" src="assets/images/Pod-Mark.jpg" alt="Image of Mark" />
-      </div>
-      <br>
-      <div>
-        <audio controls>
-          <source src="assets/podcasts/Pod-Mark.mp3" type="audio/mp3" />
-        </audio>
-      </div>
-      <br>
-      <p class="flow-text">
-        Mark, a 20-year-old homosexual man from Brussels, reflects on his
-        experiences of being mocked and feeling unsafe due to his sexual
-        orientation. However, after being attacked, he found strength and
-        resilience. With the support of friends and LGBTQ+ communities, he became
-        an advocate for acceptance and equality. His story serves as an
-        inspiration to others, emphasizing the importance of embracing one's true
-        self and standing up against prejudice.
-      </p>
-    </div>
-    <hr />
-    <div class="section">
-      <h3>Elijah</h3>
-      <div>
-        <img class="responsive-img" src="assets/images/Pod-Elijah.jpg" alt="Image of Elijah" />
-      </div>
-      <br>
-      <div>
-        <audio controls class="js-player" id="plyr-1" crossorigin playsinline>
-          <source src="assets/podcasts/Pod-Elijah.mp3" />
-        </audio>
-      </div>
-      <br>
-      <p class="flow-text">
-        Elijah, in their 40s, shares their journey of discovering their
-        non-binary, trans-masculine identity while navigating their Jewish faith.
-        Despite initial concerns about the compatibility of being trans and
-        Jewish, Elijah found a supportive community that allowed them to embrace
-        both aspects of their identity. They highlight the significance of a
-        transformative visit to the Western Wall and the challenges faced from
-        negative online reactions. Elijah emphasizes the importance of personal
-        faith and hopes for a broader understanding of the multi-faceted nature of
-        being transgender.
-      </p>
-    </div>
-    <hr />
-    <div class="section">
-      <h3>Emily</h3>
-      <div class="">
-        <img class="responsive-img" src="assets/images/Pod-Emily.jpg" alt="Image of Emily" />
-      </div>
-      <br>
-      <div>
-        <audio controls>
-          <source src="assets/podcasts/Pod-Emily.mp3" type="audio/mp3" />
-        </audio>
-      </div>
-      <br>
-      <br>
-      <p class="flow-text">
-        Emily, age 16, reflects on her journey as a lesbian and her feelings for
-        her best friend. She grapples with societal stereotypes and fears about
-        coming out to her family and friends. Emily emphasizes the importance of
-        acceptance, understanding, and the need to see beyond stereotypes in order
-        to embrace love in all its forms.
-      </p>
-    </div>
-    <hr />
-    <div class="section">
-      <h3>Nikki</h3>
-      <div>
-        <img class="responsive-img" src="assets/images/Pod-Nikki.jpg" alt="Image of Nikki" />
-      </div>
-      <br>
-      <div>
-        <audio controls>
-          <source src="assets/podcasts/Pod-Nikki.mp3" type="audio/mp3" />
-        </audio>
-      </div>
-      <br>
-      <p class="flow-text">
-        Nikki, a 26-year-old from London, shares their journey of discovering and
-        accepting their transgender identity. From early memories of feeling
-        different to finding understanding on YouTube, Nikki transitioned without
-        explicitly telling their family. They emphasize that being trans is just a
-        part of who they are and desire happiness, respect, and acceptance. Their
-        story challenges prejudices and highlights the shared humanity between
-        trans and cisgender individuals.
-      </p>
-    </div>
-    <hr />
-    <h3>Pedro</h3>
-    <div>
-      <img class="responsive-img" src="assets/images/Pod-Pedro.jpg" alt="Image of Pedro" />
-    </div>
-    <br>
-    <div>
-      <audio controls>
-        <source src="assets/podcasts/Pod-Pedro.mp3" type="audio/mp3" />
-      </audio>
-    </div>
-    <br>
-    <p class="flow-text">
-      Pedro, a 27-year-old man from a small, conservative village in Spain,
-      shares his journey of coming to terms with his sexuality. After facing
-      rejection from his family, he found support in Barcelona's LGBTQ+
-      community. Through resilience and self-acceptance, he discovered love and
-      happiness. Although his family hasn't fully accepted him, he remains
-      hopeful and advocates for acceptance and equality.
-    </p>
+    <h2>Voices Unveiled: Stories Worth Listening To</h2>
   </div>
+
+  <article class="article-box section light-blue lighten-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m3 pod-media">
+          <img class="responsive-img" src="assets/images/Pod-Elijah.jpg" alt="Image of Elijah" />
+          <audio class="media-ply" controls class="js-player" id="plyr-1" crossorigin playsinline>
+            <source src="assets/podcasts/Pod-Elijah.mp3" />
+          </audio>
+        </div>
+        <div class="col s12 m9">
+          <h4 class="media-ply-txt">Elijah</h4>
+          <p class="flow-text">
+            Elijah, a non-binary trans-masculine individual from London, discusses their journey of self-discovery
+            within their Jewish faith. Overcoming initial doubts, they found a supportive community and embraced their
+            dual identity. They reflect on a meaningful visit to the Western Wall, facing online negativity, and stress
+            the significance of personal faith and fostering a comprehensive understanding of transgender experiences.
+          </p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="article-box section">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m3 pod-media">
+          <img class="responsive-img" src="assets/images/Pod-Emily.jpg" alt="Image of Emily" />
+          <audio class="media-ply" controls>
+            <source src="assets/podcasts/Pod-Emily.mp3" type="audio/mp3" />
+          </audio>
+        </div>
+        <div class="col s12 m9">
+          <h4 class="media-ply-txt">Emily</h4>
+          <p class="flow-text">
+            Emily, age 16, reflects on her journey as a lesbian and her feelings for
+            her best friend. She grapples with societal stereotypes and fears about
+            coming out to her family and friends. Emily emphasizes the importance of
+            acceptance, understanding, and the need to see beyond stereotypes in order
+            to embrace love in all its forms.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </article>
+
+  <article class="article-box section light-blue lighten-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m3 pod-media">
+          <img class="responsive-img" src="assets/images/Pod-Nikki.jpg" alt="Image of Nikki" />
+          <audio class="media-ply" controls>
+            <source src="assets/podcasts/Pod-Nikki.mp3" type="audio/mp3" />
+          </audio>
+
+        </div>
+        <div class="col s12 m9">
+          <h4 class="media-ply-txt">Nikki</h4>
+          <p class="flow-text">
+            Nikki, a 26-year-old from London, shares their journey of discovering and
+            accepting their transgender identity. From early memories of feeling
+            different to finding understanding on YouTube, Nikki transitioned without
+            explicitly telling their family. They emphasize that being trans is just a
+            part of who they are and desire happiness, respect, and acceptance. Their
+            story challenges prejudices and highlights the shared humanity between
+            trans and cisgender individuals.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </article>
+
+  <article class="article-box section">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m3 pod-media">
+          <img class="responsive-img" src="assets/images/Pod-Mark.jpg" alt="Image of Mark" />
+          <audio class="media-ply" controls>
+            <source src="assets/podcasts/Pod-Mark.mp3" type="audio/mp3" />
+          </audio>
+        </div>
+        <div class="col s12 m9">
+          <h4 class="media-ply-txt">Mark</h4>
+          <p class="flow-text">
+            Mark, a 20-year-old homosexual man from Brussels, reflects on his
+            experiences of being mocked and feeling unsafe due to his sexual
+            orientation. However, after being attacked, he found strength and
+            resilience. With the support of friends and LGBTQ+ communities, he became
+            an advocate for acceptance and equality. His story serves as an
+            inspiration to others, emphasizing the importance of embracing one's true
+            self and standing up against prejudice.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </article>
+
+  <article class="article-box section light-blue lighten-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m3 pod-media">
+          <img class="responsive-img" src="assets/images/Pod-Pedro.jpg" alt="Image of Pedro" />
+          <audio class="media-ply" controls>
+            <source src="assets/podcasts/Pod-Pedro.mp3" type="audio/mp3" />
+          </audio>
+        </div>
+        <div class="col s12 m9">
+          <h4 class="media-ply-txt">Pedro</h4>
+          <p class="flow-text">
+            Pedro, a 27-year-old man from a small, conservative village in Spain,
+            shares his journey of coming to terms with his sexuality. After facing
+            rejection from his family, he found support in Barcelona's LGBTQ+
+            community. Through resilience and self-acceptance, he discovered love and
+            happiness. Although his family hasn't fully accepted him, he remains
+            hopeful and advocates for acceptance and equality.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </article>
 
   <footer>
     <!-- footer contents here -->
