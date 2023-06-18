@@ -46,10 +46,30 @@ nav i {
     height: 100vh !important;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgb(247, 216, 228) !important;    
+    background-color: rgb(247, 216, 228) !important;
 }
 
-.mobile-links, .mobile-links li a {
+/* ----------scrollbar styling  ------------*/
+::-webkit-scrollbar {
+    width: .5vw;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #5db1e2;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(122deg, rgba(51, 0, 102, 0.7) 0%, rgba(255, 0, 102, 0.7) 25%, rgba(255, 153, 0, 0.7) 50%, rgba(255, 255, 0, 0.7) 75%, rgba(0, 255, 204, 0.7) 100%);
+}
+
+.mobile-links,
+.mobile-links li a {
     width: 100% !important;
     font-size: 1.7rem !important;
     letter-spacing: 2px !important;
