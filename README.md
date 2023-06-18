@@ -234,7 +234,7 @@ To find a list of fixed bugs that were mended during development, please click [
 
 ### **Remaining bugs**
 
-To be added.
+* In the testimonial page, at the smallest media query, there is a giant margin-right due to an image conflict.
 
 ## **Validator Testing**
 
@@ -287,10 +287,6 @@ The procedure for deployment followed the "Creating your site" steps provided in
 
 ## **Credits**
 
-### **Media**
-
-To be added.
-
 ### **Acknowledgments**
 
-This project was created in collaboration by [Team Symbiotic+](https://hackathon.codeinstitute.net/teams/314/): Hermon Asmelash, Iberico Alex, Keiron Chaudhry, Stephen Opoku, Sam Petchey, Samuel Ukachukwu.
+This project was created in collaboration by [Team Symbiotic+](https://hackathon.codeinstitute.net/teams/314/): [Hermon Asmelash](https://github.com/Hasmelash95), [Iberico Alex](https://github.com/ibericoalex), [Keiron Chaudhry](https://github.com/keironchaudhry), [Stephen Opoku](https://github.com/Stephenkofipoku), [Sam Petchey](https://github.com/sampetchey), [Samuel Ukachukwu](https://github.com/SamuelUkachukwu).
