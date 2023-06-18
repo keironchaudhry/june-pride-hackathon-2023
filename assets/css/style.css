@@ -9,8 +9,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-a {
+h6 {
     font-family: "Oswald", serif;
 }
 
@@ -145,6 +144,10 @@ nav {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+#voiced-unveiled {
+    margin-bottom: 2.4rem !important;
+}
+
 .footer {
     width: 100%;
     display: flex;
@@ -222,7 +225,7 @@ nav {
 
 .second-hero-image {
     position: relative;
-    height: 507.75px;
+    height: 507.75px !important;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("/assets/images/event.jpg");
     background-repeat: no-repeat;
@@ -235,7 +238,7 @@ nav {
 .text-overlay {
     position: absolute;
     top: 50%;
-    left: 45%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
     z-index: 1;
