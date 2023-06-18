@@ -39,9 +39,13 @@ Based on the Code Institute Hackathon June 2023 Theme of "Pride", create an appl
 
 ## **User Experience**
 
-To be added.
+Connect+ prioritises delivering a seamless and delightful user experience to ensure that our application is accessible, intuitive, and enjoyable for everyone in the LGBTQ+ community.
 
-<hr>
+* **LGBTQ+ Podcast**: The application features a testimonials page where users can engage in stories and experiences as told by other people of the same community. The user is able to emotionally connect and recognise their experiences in these testimonials.
+
+* **Milestones**: It also features an educational page where users can be exposed to current/historical figures that have had a monumental impact in the community or in history. Featured also are historical events. 
+
+* **Conversation**: The application features a game which has been designed to produce random questions for the user. This game is to intuitively be used in person with another person, as a way of getting to know them at a deeper, human level. 
 
 ## **Target Audience**
 
