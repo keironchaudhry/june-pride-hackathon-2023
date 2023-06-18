@@ -29,6 +29,11 @@ nav {
     font-size: 0.9rem !important;
 }
 
+nav i {
+    color: black;
+    font-style:normal;
+}
+
 .story {
     position: fixed;
     bottom: 10%;
@@ -277,7 +282,6 @@ audio {
     font-weight: bold;
     font-size: 1.3rem;
 }
-
 
 
 /* ------------ MEDIA QUERIES ------------ */
