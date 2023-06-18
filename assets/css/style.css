@@ -29,6 +29,20 @@ nav {
     font-size: 0.9rem !important;
 }
 
+nav i {
+    color: black;
+    font-style:normal;
+}
+
+.story {
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    z-index: 999;
+}
+
+
+
 /* ------------ Hero styling ------------ */
 .hero {
     background: rgb(51, 0, 102);
