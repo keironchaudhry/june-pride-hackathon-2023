@@ -31,7 +31,7 @@ nav {
 
 nav i {
     color: black;
-    font-style:normal;
+    font-style: normal;
 }
 
 .story {
@@ -275,9 +275,9 @@ audio {
     width: 480px;
 }
 
-#questionButton {
-    font-weight: bold;
-    font-size: 0.9rem;
+.fancy-btn {
+    font-weight: bold !important;
+    font-size: 0.9rem !important;
 }
 
 /* ------------ FOOTER QUERIES ------------ */
@@ -302,6 +302,40 @@ footer {
     margin: auto !important;
     font-size: 0.9rem !important;
 
+}
+
+
+@keyframes pride-gradient {
+    0% {
+        background-color: #E40303;
+    }
+
+    20% {
+        background-color: #FF8C00;
+    }
+
+    40% {
+        background-color: #FFED00;
+    }
+
+    60% {
+        background-color: #008026;
+    }
+
+    80% {
+        background-color: #004DFF;
+    }
+
+    100% {
+        background-color: #750787;
+    }
+}
+
+.error-pg-bx {
+    background: linear-gradient(122deg, #330066b3 0%, #ff0066b3 25%, #ff9900b3 50%, #ffff00b3 75%, #00ffccb3 100%);
+    padding: 4rem 0;
+    margin: 3rem 0;
+    animation: pride-gradient 7s linear infinite;
 }
 
 /* ------------ MEDIA QUERIES ------------ */
