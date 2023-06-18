@@ -183,13 +183,13 @@ To be added.
 
 The [W3C Markup Validation Service](https://validator.w3.org/) for the HTML code was passed in as a URL and returned no errors.
 
-![html-validator-results]()
+![html-validator-results](./assets/documentation/readme_images/html-validator.png)
 
 ### **CSS Validator**
 
-The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) for the CSS code was passed in as source code and returned no errors.
+The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) for the CSS code brings up one single error which is connected to the Materialize library. For the CSS code available and developed by the team, there are no errors.
 
-![css-validator-results]()
+![css-validator-results](./assets/documentation/readme_images/css-validator.png)
 
 ### **JSHint**
 
