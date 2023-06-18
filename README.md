@@ -124,15 +124,59 @@ In order to provide an exceptional user experience and offer a realistic preview
 
 ## **Features**
 
-To be added.
+The application structure consists of:
+
+* Landing/Home Page
+* Testimonials Page (Podcast)
+* Conversation Game Page
+* Milestones Page
 
 ### **Existing Features**
 
-To be added.
+![landing-page](./assets/documentation/features/landing-page.png)
 
-### **Responsiveness**
+* Landing page where user first arrives upon opening of application.
+* Single image has been split up into three different images that are links to separate pages in the application.
 
-To be added.
+![testimonials-page](./assets/documentation/features/testimonials-page.png)
+
+* Navigation bar available at the top of page.
+* Stylish hero image apparent upon opening of page.
+* Incorporation of a LGBTQ+ colour theme.
+
+![testimonials-page-example](./assets/documentation/features/testimonials-page-example.png)
+
+* Podcast samples are found and available on the testimonial page.
+* Users can actively engage with these podcasts and listen to them to engage with the application.
+
+![conversation-game](./assets/documentation/features/conversation-page.png)
+
+* Application contains a question-generator for in-person socialising. 
+* Questions are generated with JavaScript at random.
+* Users can engage with other people on a personal basis using this game.
+
+![milestones-page](./assets/documentation/features/milestones-page.png)
+
+* Milestone landing page has a historically relevant landing page.
+* Navigation bar can also be seen for user-ease.
+
+![milestones-page-example](./assets/documentation/features/milestones-page-example.png)
+
+* Example of historical description for user engagement.
+
+![milestones-page-second-hero](./assets/documentation/features/milestones-page-second-hero.png)
+
+* Relevant hero image for the milestone events.
+* Engaging, powerful imagery with strong references to the LGBTQ+ theme.
+
+![milestones-page-example-event](./assets/documentation/features/milestones-page-example-event.png)
+
+* Example of a historical event in LGBTQ+ history for educative purposes.
+
+![footer](./assets/documentation/features/footer.png)
+
+* Footer available at the bottom of every page.
+
 
 ## **Testing**
 
