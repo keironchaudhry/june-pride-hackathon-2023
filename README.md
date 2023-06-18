@@ -93,8 +93,19 @@ To be added.
 
 ## **Technologies, Languages & Programs Used**
 
-To be added.
-
+* [HTML](https://www.w3schools.com/html/): Markup language for creating web pages.
+* [CSS](https://www.w3schools.com/CSS/): Stylesheet language for styling the appearance of web pages.
+* [JavaScript](https://www.javascript.com/): Programming language for adding interactivity to web pages.
+* [Materialize](https://materializecss.com/): CSS framework for creating responsive and modern web designs.
+* [GitHub](https://github.com/): Web-based platform for version control and collaboration on software projects.
+* [GitHub Pages](https://pages.github.com/): Hosting service provided by GitHub for publishing static web pages.
+* [Google Fonts](https://fonts.google.com/): Library of free and open-source web fonts.
+* [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/): Automated tool for auditing and improving web page quality.
+* [W3C Validator](https://validator.w3.org/): Tool for checking HTML and CSS code compliance with web standards.
+* [JSHint](https://jshint.com/): Static code analysis tool for detecting errors and potential issues in JavaScript code.
+* [CodeAnywhere](https://codeanywhere.com/): Cloud-based integrated development environment (IDE) for coding, collaborating, and deploying projects.
+* [GitPod](https://gitpod.io/): Online IDE specifically designed for developing applications with Git repositories. It provides a fully configured development environment for each project.
+* [VSCode](https://code.visualstudio.com/): Free and highly extensible source code editor with built-in features for editing, debugging, and version control integration. It supports various programming languages and is available for multiple platforms.
 
 ## **Features**
 
