@@ -287,10 +287,6 @@ The procedure for deployment followed the "Creating your site" steps provided in
 
 ## **Credits**
 
-### **Media**
-
-To be added.
-
 ### **Acknowledgments**
 
 This project was created in collaboration by [Team Symbiotic+](https://hackathon.codeinstitute.net/teams/314/): [Hermon Asmelash](https://github.com/Hasmelash95), [Iberico Alex](https://github.com/ibericoalex), [Keiron Chaudhry](https://github.com/keironchaudhry), [Stephen Opoku](https://github.com/Stephenkofipoku), [Sam Petchey](https://github.com/sampetchey), [Samuel Ukachukwu](https://github.com/SamuelUkachukwu).
