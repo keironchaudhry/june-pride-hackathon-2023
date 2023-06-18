@@ -1,103 +1,175 @@
-# **Branches and Pull Requests**
+# **Title**
 
-## **Creating a Branch**
+![landing-page-photo]()
 
-There are multiple ways to create a branch in your IDE (Integrated development environment), but this is one of the easiest:
+Introduction:
 
-* Go to the GitHub repository for this project.
+Live deployment link can be found [here]().
 
-* You should be able to locate "Branch" (it'll normally say "1 branch" if there's just one, or "2 branches" etc.,). Click it.
+# Table of Contents
 
-![branches](./assets/documentation/readme_images/2%20branches.png)
+1. [Project Goals](#project-goals "ProjectGoals")
+2. [User Experience](#user-experience "User Experience")
+   - [Target Audience](#target-audience "Target Audience")
+   - [User Requirements and Expectations](#user-requirements-and-expectations "User Requirements and Expectations")
+   - [User Stories](#user-stories "User Stories")
+3. [Design](#design "Design")
+   - [Design Choices](#design-choices "Design Choices")
+   - [Colour](#colour "Colour")
+   - [Fonts](#fonts "Fonts")
+   - [Music & Sounds](#music--sounds "Music & Sounds")
+   - [Wireframes](#wireframes "Wireframes")
+4. [Technologies, Languages & Programs Used](#technologies-languages--programs-used)
+5. [Features](#features "Features")
+   - [Existing Features](#existing-features "Existing Features")
+     - [Start Screen](#start-screen "Start Screen")
+     - [Game Screen](#game-screen "Game Screen")
+     - [End Screen](#end-screen "End Screen")
+   - [Future Features](#future-features "Future Features")
+   - [Responsiveness](#responsiveness "Responsiveness")
+6. [Testing](#testing "Testing")
+   - [Bugs](#bugs "Bugs")
+   - [Validator Testing](#validator-testing "Validator Testing")
+7. [Deployment, Development & Version Control](#deployment-development--version-control)
+8. [Credits](#credits "Credits")
 
-* Then click "New branch". You can name it whatever but I would recommend calling it your name (in my case, I've named it "keiron").
+## **Project Goals**
 
-Done.
+To be added.
 
-Another way:
+## **User Experience**
 
-* Go into your actual IDE, and go to the Source Control panel. This can be found underneath the search tab on the left side of the screen in GitPod (should be the same for Code Anywhere and VSCode).
+To be added.
 
-![source-control](./assets/documentation/readme_images/source_control.png)
+<hr>
 
-* Then click on the three dot dropdown component up top (see attached photo)
+## **Target Audience**
 
-![three-dots](./assets/documentation/readme_images/three_dots.png)
+To be added.
 
-* Go to Branch > Create branch > Enter desired branch name
+## **User Stories**
 
-Done. _You will need to "Publish branch" in Source Control_, and then it can be seen in the GitHub Repo.
+To be added.
 
-Once you've done this, in your IDE, go right down to the branch label (I will attach a photo).
+## **Design**
 
-![branch-ide](./assets/documentation/readme_images/branch-ide.png)
+### **Design Choices**
 
-Click this and it will bring up a list of existing branches. Click the one you have made.
+To be added.
 
-You should notice then that the branch label has changed to your named branch.
+### **Colour**
 
-**Useful commands**
+To be added
 
-A list of useful commands when you're working from branches are:
+<br>
 
-`git status` (tells you which branch you're on and if you're behind/ahead of main branch)
+### **Fonts**
 
-`git pull origin main` (this is very important, please git pull everytime you merge a pull request as it avoids merge conflicts)
+To be added.
 
-`git add`
+### **Music & Sounds**
 
-`git commit -m your commit message`
+To be added.
 
-`git push origin your branch name (I recommend just going into source control and clicking Sync changes)`
+### **Wireframes**
 
-`git switch (branch name)` (allows you to switch branch instantaneously)
+To be added.
 
-`git stash` (when you're in the middle of making changes and someone merges a PR, you can git stash your changes away temporarily, git pull from main, and then...)
+## **Technologies, Languages & Programs Used**
 
-`git stash pop` (... you can git stash pop your changes back into your IDE. alelujah!)
+To be added.
 
-## **Creating a Pull Request (known as a "PR")**
+<hr>
 
-When you've pushed changes to your branch, you can then head over to the GitHub repository for the Pride Hackathon and normally there appears an unmissable message saying that you can merge changes and begin a pull request.
+## **Features**
 
-![unmissable-message](./assets/documentation/readme_images/unmissable-message.png)
+To be added.
 
-In case you've pushed changes and this message doesn't appear, don't worry, just go back into "branches", find your name, and alongside your branch name, there'll be a button for "New Pull Request". I've attached the following photo for reference.
+### **Existing Features**
 
-![pr-button](./assets/documentation/readme_images/new%20pr%20button.png)
+To be added.
 
-Once you've begun a PR, it will appear in the "Pull Requests" (next to "Issues") part of the GitHub repository, and you can manage it from there before merging your changes with main.
+### **Responsiveness**
 
-Please always tag reviewers (you can tag anybody or everybody) to take a look at the changes before merging.
+To be added.
 
-**IMPORTANT**
+## **Testing**
 
-When you make a branch, _there always exists two versions of it_, one in your IDE and the remote branch in GitHub. This sounds strange at first but it should begin to make sense as you repetitiously use the Git commands.
+### **Manual Testing**
 
-So when I made 'keiron', I now have the 'keiron' branch open in my IDE (Integrated development environment, which is a fancy way of saying "coding environment", i.e., VSCode, Gitpod, CodeAnywhere etc.), where I am modifying the code. And then I push these changes to the 'keiron' branch in GitHub (_the remote branch_), where I can then merge that branch with the main remote branch.
+Manual testing following the User Stories was carried out throughout the development of the project, with the final results available below.
 
-This is noteworthy because after every successfully merged Pull Request, you must always `git pull origin main` and then go to Source Control and click `Sync Changes`, to make sure the remote version of your branch is also up to date with your coding environment (IDE). If these branches aren't up to date, we could experience what's called a merge conflict, which I will explain below in the potential problems section.
+- As a **user**, I want () so that I ().
 
-![sync-changes](./assets/documentation/readme_images/sync_changes.png)
+| **Test** | Issue | Result |
+| -------- | ----- | ------ |
+| 1        | ()    | PASS   |
 
-**Potential problems**
+## **Bugs**
 
-When a lot of PRs go up, a "merge conflict" can happen. This is okay and it's bound to happen, it's part of the experience of a hackathon as well (and also working in a team). It can occur for a variety of complex reasons.
+### **Fixed bugs**
 
-An example of how it can occur is when changes are being made by various branches on the same content (say that "samuel" and "keiron" are working on the exact same part of the README.md file, and then we do a PR, or if one of us has forgotten to git pull to make sure our IDE and remote branches are up to date before we began our changes).
+To find a list of fixed bugs that were mended during development, please click [here]().
 
-Of course the best way to avoid it is to try and always make sure your branch is up to date and to work on completely different sections. Make sure we make clear our tasks, roles and what it is we are working on within the file we are working in.
+### **Remaining bugs**
 
-If it happens we will just deal with it but let's try avoid it xD
+To be added.
 
-Do check your branches from time to time either at the bottom of your IDE, or in the GitHub repository to see if you are up to date. If you are, it'll appear as "0|0". If you make sure of this, it'll keep everything clean and we can reduce the risk of merge conflicts. One "0" represents your IDE branch and the other your "remote" branch. Keep these two in sync and at "0|0" as often as humanly possible.
+## **Validator Testing**
 
-![good-branch](./assets/documentation/readme_images/good%20branch.png)
+### **HTML Validator**
 
-An example of a badly managed branch is this: 
+The [W3C Markup Validation Service](https://validator.w3.org/) for the HTML code was passed in as a URL and returned no errors.
 
-![bad-branch](./assets/documentation/readme_images/bad%20branch.png)
+![html-validator-results]()
 
-**Note**
+### **CSS Validator**
 
-I've tried my best to be as comprehensive as possible in this so that any new-hackathoners and those who are new to branching and PRs can be informed, but overall we will deal with any potential issues as a team. :D
+The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) for the CSS code was passed in as source code and returned no errors.
+
+![css-validator-results]()
+
+### **JSHint**
+
+The [JSHint Validation Service](https://jshint.com/) for the JavaScript code was passed in as source code and returned no errors.
+
+## **Deployment, Development & Version Control**
+
+The development environment used for this project was GitPod.
+
+Each software developer on the team created their own individual branch divergent from main from the get-go and have communicated via Slack to collaborate, pitch ideas, fix bugs and talk about relevant Pull Requests. Regular commits and pushes to Github have been employed to be able to track and trace the development process of the web application.
+
+For local deployments instructions shall be written below, along with instructions with deployment to GitHub Pages, the hosting service used to deploy this particular website.
+
+### **Local Deployment**
+
+This repository can be cloned and run locally with the following steps:
+
+- Login to GitHub.
+- Select repository named: keironchaudhry/june-pride-hackathon-2023
+- Click code toggle button and copy the url (i.e., https://github.com/keironchaudhry/june-pride-hackathon-2023.git).
+- In your IDE, open the terminal and run the git clone command (i.e., git clone https://github.com/keironchaudhry/june-pride-hackathon-2023.git). The repository will now be cloned in your workspace.
+
+### **Deployment to GitHub**
+
+The live version of the project is deployed at GitHub pages.
+
+The procedure for deployment followed the "Creating your site" steps provided in GitHub Docs.
+
+- Log into Github.
+- Select desired GitHub Repository to be deployed live.
+- Underneath the repository name, click the “Settings” option.
+- In the sub-section list on the left, under “Code and automation”, click “Pages”.
+- Within the ”Source” section choose ”main” as Branch and root as folder and click ”Save”.
+- The page refreshes and a website shall then deploy via a link.
+- The following is the live link deployed: 
+
+## **Credits**
+
+### **Media**
+
+To be added.
+
+### **Acknowledgments**
+
+This project was created in collaboration by [Team Symbiotic+](https://hackathon.codeinstitute.net/teams/314/): Hermon Asmelash, Iberico Alex, Keiron Chaudhry, Stephen Opoku, Sam Petchey, Samuel Ukachukwu.
