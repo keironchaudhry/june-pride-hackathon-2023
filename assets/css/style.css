@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+p {
+    font-size: 1.4rem;
+    font-family: karla,sans-serif;
+}
 
 nav {
     -webkit-box-shadow: none !important;
@@ -24,7 +28,9 @@ nav {
     z-index: 999;
 }
 
-/* ------------------------------------Hero styling  */
+
+
+/* ------------ Hero styling ------------ */
 .hero {
     background: rgb(51, 0, 102);
     background: linear-gradient(122deg, rgba(51, 0, 102, 0.7) 0%, rgba(255, 0, 102, 0.7) 25%, rgba(255, 153, 0, 0.7) 50%, rgba(255, 255, 0, 0.7) 75%, rgba(0, 255, 204, 0.7) 100%);
@@ -44,13 +50,25 @@ nav {
     font-weight: 400;
 }
 
+.hero-title {
+    margin-top: 80px;
+}
 
-/* -----------------------------------Home page styling */
+#media1 {
+    width: 80%;
+    height: 30px;    
+}
+
+/* ----------- Home page styling ------------ */
 .home-nav {
     /* height: 10vh !important; */
     display: flex;
     align-items: center;
     padding-top: 6rem;
+}
+
+.active {
+    font-weight: bold;
 }
 
 .home-container {
@@ -109,7 +127,7 @@ nav {
     padding: 5px;
 }
 
-/* History page CSS */
+/* ------------ History page CSS ------------ */
 
 .hero-image {
     height: 70vh;
@@ -134,13 +152,14 @@ nav {
     background-image: linear-gradient(to right, #FAFAFA, #000, #FAFAFA);
 }
 
-/* Discussion page CSS */
+
+/* ------------ Conversation page CSS ------------ */
 .discussion-heading {
     margin-left: 50px;
 }
 
 .conversation-image {
-    height: 50vh;
+    height: 40vh;
     background: url("/assets/images/conversation3.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -148,50 +167,17 @@ nav {
     margin-bottom: 30px;
 }
 
-/* Screens above 992px */
-@media only screen and (max-width: 993px) {
-    .home-card {
-        width: 70%;
-        margin: auto;
-        margin-bottom: 20px;
-    }
-
-    .home-container {
-        height: 95vh;
-        display: block;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
+.conv {
+    width: 70vw;
+    margin: auto;
+    text-align: center;
 }
 
-/* Screens between 769px and 992px */
-@media only screen and (min-width: 769px) and (max-width: 992px) {
-
-    .home-container {
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-    }
-
-    .hero-img {
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .home-txt {
-        font-size: 4rem;
-    }
+#empatheticQuestion {
+    max-width: 750px;
 }
 
-/* Screens up to 768px */
-@media only screen and (max-width: 599px) {
-    .home-card {
-        width: 90%;
-    }
-
-}
-
-/* History page CSS */
+/* ------------  Milestones page CSS ------------  */
 
 .hero-image {
     height: 70vh;
@@ -250,31 +236,21 @@ nav {
     margin-bottom: 30px;
 }
 
-.first-event-margin {
-    margin-top: 50px;
-}
 
-/* Discussion page CSS */
-.discussion-heading {
-    margin-left: 50px;
-}
-
-.conversation-image {
-    height: 50vh;
-    background: url("/assets/images/conversation3.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    margin-bottom: 30px;
-}
-
-/* Testimonials audio */
+/* ------------ Testimonials audio ------------ */
 
 audio {
     width: 480px;
 }
 
-/* Media queries */
+#questionButton {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+
+/* ------------ MEDIA QUERIES ------------ */
 
 @media screen and (max-width: 500px) {
     audio {
@@ -282,10 +258,50 @@ audio {
     }
 }
 
-/* CSS for SamPetchey branch */
 
-.conv {
-    width: 80vw;
-    margin: auto;
-    text-align: center;
+/* Screens above 992px */
+@media only screen and (max-width: 993px) {
+    .home-card {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .home-container {
+        height: 95vh;
+        display: block;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }
+
+/* Screens between 769px and 992px */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+    .home-container {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .hero-img {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .home-txt {
+        font-size: 4rem;
+    }
+}
+
+/* Screens up to 768px */
+@media only screen and (max-width: 599px) {
+    .home-card {
+        width: 90%;
+    }
+
+}
+
+
+
+
