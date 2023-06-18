@@ -190,7 +190,7 @@ nav {
 
 .conversation-image {
     height: 40vh;
-    background: url("/assets/images/conversation3.png");
+    background: url("../images/conversation3.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -212,7 +212,7 @@ nav {
 .hero-image {
     height: 70vh;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
-        url("/assets/images/hero-image-history.png");
+        url("../images/hero-image-history.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -227,7 +227,7 @@ nav {
     position: relative;
     height: 507.75px !important;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("/assets/images/event.jpg");
+        url("../images/event.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
