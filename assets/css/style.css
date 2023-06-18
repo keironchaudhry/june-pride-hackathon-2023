@@ -133,6 +133,10 @@ nav {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+#voiced-unveiled {
+    margin-bottom: 2.4rem !important;
+}
+
 .footer {
     width: 100%;
     display: flex;
@@ -174,8 +178,8 @@ nav {
 }
 
 .conversation-image {
-    height: 45vh;
-    background: url("/assets/images/conversation3.png");
+    height: 40vh;
+    background: url("../images/conversation3.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -197,7 +201,7 @@ nav {
 .hero-image {
     height: 507.75px;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
-        url("/assets/images/hero-image-history.png");
+        url("../images/hero-image-history.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -210,9 +214,9 @@ nav {
 
 .second-hero-image {
     position: relative;
-    height: 507.75px;
+    height: 507.75px !important;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("/assets/images/event.jpg");
+        url("../images/event.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -223,7 +227,7 @@ nav {
 .text-overlay {
     position: absolute;
     top: 50%;
-    left: 45%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
     z-index: 1;
