@@ -234,7 +234,7 @@ To find a list of fixed bugs that were mended during development, please click [
 
 ### **Remaining bugs**
 
-To be added.
+* In the testimonial page, at the smallest media query, there is a giant margin-right due to an image conflict.
 
 ## **Validator Testing**
 
