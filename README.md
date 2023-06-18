@@ -1,10 +1,10 @@
-# **Title**
+# **Connect+**
 
-![landing-page-photo]()
+![landing-page-photo](./assets/documentation/readme_images/amiresponsive.png)
 
-Introduction:
+Connect+ is an inclusive application designed to empower and connect the LGBTQ+ community. Whether you're looking for an engaging podcast, exploring LGBTQ+ history, or challenging your knowledge with a fun question game, Connect+ is here to provide an enriching experience for everyone.
 
-Live deployment link can be found [here]().
+Live deployment link can be found [here](https://keironchaudhry.github.io/june-pride-hackathon-2023/).
 
 # Table of Contents
 
@@ -35,21 +35,38 @@ Live deployment link can be found [here]().
 
 ## **Project Goals**
 
-To be added.
+Based on the Code Institute Hackathon June 2023 Theme of "Pride", create an application which follows the theme of LGBTQ+ Pride. The application should be meaningful and educative, and bring purpose and connection to the user.
 
 ## **User Experience**
 
-To be added.
+Connect+ prioritises delivering a seamless and delightful user experience to ensure that our application is accessible, intuitive, and enjoyable for everyone in the LGBTQ+ community.
 
-<hr>
+* **LGBTQ+ Podcast**: The application features a testimonials page where users can engage in stories and experiences as told by other people of the same community. The user is able to emotionally connect and recognise their experiences in these testimonials.
+
+* **Milestones**: It also features an educational page where users can be exposed to current/historical figures that have had a monumental impact in the community or in history. Featured also are historical events. 
+
+* **Conversation**: The application features a game which has been designed to produce random questions for the user. This game is to intuitively be used in person with another person, as a way of getting to know them at a deeper, human level. 
 
 ## **Target Audience**
 
-To be added.
+Our target audience is everybody that is a part of the LGBTQ+ community, and even those who are allies, thus being able to educate themselves and learn about LGBTQ+ community by having exposure to the history and struggles in this domain.
 
 ## **User Stories**
 
-To be added.
+As a **user**, I want **to be able to view a consistent colour scheme across the application** so that **the application and its navigation feels like a smooth transition**.
+
+As a **user**, I want **to be able to find and access the navigation bar** so that I can **navigate around the application with ease**.
+
+As a **user**, I want **to be able to view the footer** so that I can **view any extra beneficial information regarding the application**.
+
+As a **user**, I want **to be able to land on the home page** so that I am **able to have a central point of contact in the application**.
+
+As a **user**, I want **to be able to find a question game** so that I can **play it in person with another stranger to get to know them better**.
+
+As a **user**, I want **to be able to listen to different podcasts** so that I can **engage and associate with the experiences of others**.
+
+As a **user**, I want **to be able to view historical information** so that I can **learn and appreciate LGBTQ+ history**.
+
 
 ## **Design**
 
@@ -61,7 +78,6 @@ To be added.
 
 To be added
 
-<br>
 
 ### **Fonts**
 
@@ -77,9 +93,19 @@ To be added.
 
 ## **Technologies, Languages & Programs Used**
 
-To be added.
-
-<hr>
+* [HTML](https://www.w3schools.com/html/): Markup language for creating web pages.
+* [CSS](https://www.w3schools.com/CSS/): Stylesheet language for styling the appearance of web pages.
+* [JavaScript](https://www.javascript.com/): Programming language for adding interactivity to web pages.
+* [Materialize](https://materializecss.com/): CSS framework for creating responsive and modern web designs.
+* [GitHub](https://github.com/): Web-based platform for version control and collaboration on software projects.
+* [GitHub Pages](https://pages.github.com/): Hosting service provided by GitHub for publishing static web pages.
+* [Google Fonts](https://fonts.google.com/): Library of free and open-source web fonts.
+* [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/): Automated tool for auditing and improving web page quality.
+* [W3C Validator](https://validator.w3.org/): Tool for checking HTML and CSS code compliance with web standards.
+* [JSHint](https://jshint.com/): Static code analysis tool for detecting errors and potential issues in JavaScript code.
+* [CodeAnywhere](https://codeanywhere.com/): Cloud-based integrated development environment (IDE) for coding, collaborating, and deploying projects.
+* [GitPod](https://gitpod.io/): Online IDE specifically designed for developing applications with Git repositories. It provides a fully configured development environment for each project.
+* [VSCode](https://code.visualstudio.com/): Free and highly extensible source code editor with built-in features for editing, debugging, and version control integration. It supports various programming languages and is available for multiple platforms.
 
 ## **Features**
 
@@ -109,7 +135,7 @@ Manual testing following the User Stories was carried out throughout the develop
 
 ### **Fixed bugs**
 
-To find a list of fixed bugs that were mended during development, please click [here]().
+To find a list of fixed bugs that were mended during development, please click [here](https://github.com/keironchaudhry/june-pride-hackathon-2023/issues?q=label%3Abug+is%3Aclosed).
 
 ### **Remaining bugs**
 
@@ -135,7 +161,7 @@ The [JSHint Validation Service](https://jshint.com/) for the JavaScript code was
 
 ## **Deployment, Development & Version Control**
 
-The development environment used for this project was GitPod.
+The development environment used for this project was VSCode, GitPod and CodeAnywhere.
 
 Each software developer on the team created their own individual branch divergent from main from the get-go and have communicated via Slack to collaborate, pitch ideas, fix bugs and talk about relevant Pull Requests. Regular commits and pushes to Github have been employed to be able to track and trace the development process of the web application.
 
