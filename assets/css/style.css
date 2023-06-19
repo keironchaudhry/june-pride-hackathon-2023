@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth !important;
 }
 
 h1,
@@ -79,6 +80,7 @@ nav i {
 
 /* ------------ Hero styling ------------ */
 .hero {
+    height: 507.75px;
     background: rgb(51, 0, 102);
     background: linear-gradient(122deg, rgba(51, 0, 102, 0.7) 0%, rgba(255, 0, 102, 0.7) 25%, rgba(255, 153, 0, 0.7) 50%, rgba(255, 255, 0, 0.7) 75%, rgba(0, 255, 204, 0.7) 100%);
     padding-top: 0 !important;
@@ -86,10 +88,26 @@ nav i {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    transition: 1s ease-in;
+}
+
+.hero-box {
+    position: relative;
+    height: 100%;
 }
 
 .hero-left-img {
-    transform: scale(1.02);
+    position: absolute;
+    bottom: 0;
+    right: 0%;
 }
 
 .hero-txt {
@@ -103,6 +121,8 @@ nav i {
 
 .hero-title {
     margin-top: 80px;
+    position: absolute !important;
+    z-index: 99;
 }
 
 #media1 {
@@ -386,6 +406,10 @@ footer {
 
 /* Screens above 992px */
 @media only screen and (max-width: 993px) {
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
     .home-card {
         width: 70%;
         margin: auto;
